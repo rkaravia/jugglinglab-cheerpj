@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>JugglingLab CheerpJ</title>
+    <script src="https://cjrtnc.leaningtech.com/1.4/loader.js"></script>
+    <style>
+      html,
+      body {
+        height: 100%;
+        margin: 0;
+      }
+
+      .fork-me {
+        position: absolute;
+        right: 0;
+        z-index: 1;
+      }
+    </style>
+  </head>
+  <body>
+    <a class="fork-me" href="https://github.com/rkaravia/jugglinglab-cheerpj"
+      ><img
+        width="149"
+        height="149"
+        src="https://github.blog/wp-content/uploads/2008/12/forkme_right_red_aa0000.png"
+        alt="Fork me on GitHub"
+    /></a>
+
+    <script>
+      cheerpjInit();
+      cheerpjCreateDisplay(-1, -1, document.body);
+      cheerpjRunJar("/app/JugglingLab.jar");
+
+      // Log a warning instead of pausing execution for failed assertions
+      function assert(condition) {
+        if (!condition) {
+          console.warn("Assertion failed");
+        }
+      }
+    </script>
+  </body>
+</html>
