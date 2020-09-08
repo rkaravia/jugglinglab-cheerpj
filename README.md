@@ -2,9 +2,9 @@
 
 Run [Juggling Lab](https://jugglinglab.org/) in the browser using [CheerpJ](https://www.leaningtech.com/cheerpj/).
 
-Demo: **[Try it here!](https://jugglinglab.karavia.ch)**
+Demo: **[Try it here!](https://labs.karavia.ch/jugglinglab/)**
 
-[<img src="screenshot.png" alt="Screenshot">](https://jugglinglab.karavia.ch)
+[<img src="screenshot.png" alt="Screenshot">](https://labs.karavia.ch/jugglinglab/)
 
 Based on Juggling Lab v1.2.1 and CheerpJ v1.4.
 
