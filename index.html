@@ -31,7 +31,7 @@
     <script>
       cheerpjInit();
       cheerpjCreateDisplay(-1, -1, document.body);
-      cheerpjRunJar("/app/JugglingLab.jar");
+      cheerpjRunJar("/app" + location.pathname + "JugglingLab.jar");
 
       // Log a warning instead of pausing execution for failed assertions
       function assert(condition) {
